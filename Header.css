@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: goldenrod;
+}
+
+header img{
+    height: 60px;
+}
+.cart{
+    position: relative;
+}
+
+.cart div{
+    background-color: rgb(192, 8, 115);
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+}
